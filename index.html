@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valluru Lokeswar Reddy | Full-Stack Java & Angular Developer</title>
+  
+  <!-- SEO & OpenGraph Meta Tags -->
+  <meta name="description" content="Portfolio of Valluru Lokeswar Reddy — Full-Stack Developer specializing in Spring Boot 3, Angular 18, Java 21, and MySQL. Creator of MedPulse Hospital Management System and EMS Portal.">
+  <meta name="keywords" content="Valluru Lokeswar Reddy, Full Stack Developer, Java Developer, Spring Boot, Angular, MySQL, MedPulse HMS, EMS Portal, Software Engineer Portfolio">
+  <meta name="author" content="Valluru Lokeswar Reddy">
+  <meta property="og:title" content="Valluru Lokeswar Reddy | Full-Stack Java & Angular Developer">
+  <meta property="og:description" content="Interactive cyber-glassmorphic portfolio showcasing production-grade enterprise platforms, architecture blueprints, and full-stack capabilities.">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+
+  <!-- Google Fonts: Plus Jakarta Sans, Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap Icons & FontAwesome CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Custom Design System Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Ambient Dynamic Cyber Backdrop & Cursor Spotlight -->
+  <div class="cyber-bg"></div>
+  <div class="cyber-grid"></div>
+  <div id="cursor-glow"></div>
+
+  <!-- ========================================================================
+       TOP NAVIGATION BAR
+       ======================================================================== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#hero" class="brand-logo">
+        <div class="logo-badge">VL</div>
+        <span>Lokeswar<span class="gradient-text">.Reddy</span></span>
+      </a>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <div class="status-pill d-none-mobile">
+          <span class="status-pulse"></span>
+          <span>Available for Hire</span>
+        </div>
+        <a href="assets/docs/Valluru_Lokeswar_Reddy_Resume.pdf" download="Valluru_Lokeswar_Reddy_Resume.pdf" class="nav-btn-cv" target="_blank">
+          <i class="bi bi-file-earmark-arrow-down-fill"></i>
+          <span>Resume</span>
+        </a>
+        <button class="menu-toggle" aria-label="Toggle Navigation">
+          <i class="bi bi-list"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========================================================================
+       HERO SECTION
+       ======================================================================== -->
+  <section class="hero-section" id="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <!-- Left: Headline & Pitch -->
+        <div class="hero-content">
+          <div class="hero-greeting">
+            <span class="status-pill">
+              <i class="bi bi-terminal-fill"></i> Full-Stack Software Engineer
+            </span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <br>
+            <span class="gradient-text">Valluru Lokeswar Reddy</span>
+          </h1>
+
+          <div class="hero-role-wrapper">
+            <span class="role-prefix">&gt; </span>
+            <span id="typed-role">Full-Stack Java & Angular Developer</span>
+            <span class="role-cursor"></span>
+          </div>
+
+          <p class="hero-description">
+            Computer Science engineer passionate about building resilient, enterprise-grade cloud applications. Proficient in architecting end-to-end platforms using <strong>Java 21 / Spring Boot 3.3</strong>, <strong>Angular 18</strong>, and <strong>MySQL 9</strong> with fine-grained security, transactional integrity, and responsive UX.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary">
+              <i class="bi bi-rocket-takeoff-fill"></i>
+              <span>Explore Projects</span>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <i class="bi bi-envelope-check-fill"></i>
+              <span>Let's Connect</span>
+            </a>
+            <a href="assets/docs/Valluru_Lokeswar_Reddy_Resume.pdf" download="Valluru_Lokeswar_Reddy_Resume.pdf" class="btn btn-secondary" target="_blank">
+              <i class="bi bi-download"></i>
+              <span>Download CV</span>
+            </a>
+          </div>
+
+          <!-- Key Metrics / Stats Row -->
+          <div class="hero-stats-row">
+            <div class="stat-item">
+              <span class="stat-number gradient-text-cyan">8.5<span style="font-size: 1.1rem; color: var(--text-muted);">/10</span></span>
+              <span class="stat-label">B.Tech CGPA</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number gradient-text-cyan">2</span>
+              <span class="stat-label">Live Enterprise Platforms</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number gradient-text-cyan">15+</span>
+              <span class="stat-label">Production REST APIs</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Portrait Visual with Cyber Frame & Orbital Badges -->
+        <div class="hero-visual">
+          <div class="portrait-frame-wrapper">
+            <div class="portrait-glow-ring"></div>
+            
+            <div class="portrait-container">
+              <img src="assets/images/lokesh-photo.jpg" alt="Valluru Lokeswar Reddy - Full-Stack Developer">
+              <div class="portrait-overlay-gradient"></div>
+            </div>
+
+            <!-- Floating Orbital Tech Badges -->
+            <div class="orbit-badge badge-java">
+              <i class="fa-brands fa-java"></i>
+              <span>Java 21 / Spring Boot 3</span>
+            </div>
+
+            <div class="orbit-badge badge-angular">
+              <i class="fa-brands fa-angular"></i>
+              <span>Angular 18 Signals</span>
+            </div>
+
+            <div class="orbit-badge badge-spring">
+              <i class="bi bi-shield-lock-fill"></i>
+              <span>Spring Security 6</span>
+            </div>
+
+            <div class="orbit-badge badge-mysql">
+              <i class="fa-solid fa-database"></i>
+              <span>MySQL 9 Persist</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       ABOUT ME SECTION
+       ======================================================================== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Profile Overview</span>
+        <h2 class="section-title">Engineered for <span class="gradient-text">Enterprise Scalability</span></h2>
+        <p class="section-subtitle">Blending architectural precision on the backend with fluid, reactive user ergonomics on the frontend.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="glass-card about-narrative">
+          <h3 style="font-size: 1.5rem; margin-bottom: 8px;">Professional Narrative</h3>
+          <p>
+            I am a forward-thinking Computer Science graduate with real-world internship experience developing cloud-ready full-stack applications. My core engineering focus lies at the intersection of high-throughput backend services powered by <strong>Spring Boot & MySQL</strong>, paired with reactive frontend applications in <strong>Angular</strong>.
+          </p>
+          <p>
+            I have architected and deployed two production-grade platforms: <strong>MedPulse HMS</strong>, a multi-wing hospital clinical operations suite with automated CDSS and scheduling validation, and <strong>EMS Portal</strong>, an enterprise employee lifecycle platform with multi-tier RBAC, 1-click attendance tracking, and automated payroll computation.
+          </p>
+          <p>
+            I focus on write-clean, maintainable code following SOLID principles, database indexing, and strict security compliance via stateless JWT authentication.
+          </p>
+        </div>
+
+        <div class="about-features-grid">
+          <div class="feature-box">
+            <div class="feature-icon">
+              <i class="bi bi-code-slash"></i>
+            </div>
+            <h4>Full-Stack Mastery</h4>
+            <p>End-to-end ownership from relational schema design and JPA repositories to Angular standalone components.</p>
+          </div>
+
+          <div class="feature-box">
+            <div class="feature-icon">
+              <i class="bi bi-shield-check"></i>
+            </div>
+            <h4>Bulletproof RBAC</h4>
+            <p>Stateless JJWT tokens, BCrypt password hashing, method-level security with @PreAuthorize, and Angular route guards.</p>
+          </div>
+
+          <div class="feature-box">
+            <div class="feature-icon">
+              <i class="bi bi-lightning-charge-fill"></i>
+            </div>
+            <h4>Performance & Concurrency</h4>
+            <p>HikariCP connection pooling, transactional lock handling, and double-booking conflict prevention logic.</p>
+          </div>
+
+          <div class="feature-box">
+            <div class="feature-icon">
+              <i class="bi bi-phone-fill"></i>
+            </div>
+            <h4>Ergonomic Mobile UX</h4>
+            <p>Responsive slide-out drawers, touch-friendly scrollable clinical tables, and zero mobile auto-zoom distortion.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       TECHNICAL COMPETENCIES (Interactive Filter)
+       ======================================================================== -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Competencies & Stack</span>
+        <h2 class="section-title">Technical <span class="gradient-text">Arsenal</span></h2>
+        <p class="section-subtitle">Validated through live production systems and real-world microservices architecture.</p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="skills-filter-container">
+        <button class="filter-btn active" data-filter="all">All Competencies</button>
+        <button class="filter-btn" data-filter="backend">Backend & Security</button>
+        <button class="filter-btn" data-filter="frontend">Frontend & UI</button>
+        <button class="filter-btn" data-filter="database">Databases & Persistence</button>
+        <button class="filter-btn" data-filter="tools">DevOps & Tooling</button>
+      </div>
+
+      <!-- Skills Grid -->
+      <div class="skills-grid" id="skills-grid">
+        
+        <!-- Java 17/21 -->
+        <div class="glass-card skill-card" data-category="backend">
+          <div class="skill-header">
+            <div class="skill-info">
+              <div class="skill-icon" style="color: #f59e0b;">
+                <i class="fa-brands fa-java"></i>
+              </div>
+              <div>
+                <h4 class="skill-name">Java 17 / 21</h4>
+                <span class="skill-category-badge">Core & Modern Java</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-meter-wrapper">
+            <div class="skill-meter-bar">
+              <div class="skill-meter-fill" style="width: 95%;"></div>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">OOP</span>
+            <span class="skill-tag">Multithreading</span>
+            <span class="skill-tag">Streams API</span>
+            <span class="skill-tag">Records</span>
+            <span class="skill-tag">Lambdas</span>
+          </div>
+        </div>
+
+        <!-- Spring Boot 3.x -->
+        <div class="glass-card skill-card" data-category="backend">
+          <div class="skill-header">
+            <div class="skill-info">
+              <div class="skill-icon" style="color: #10b981;">
+                <i class="bi bi-gear-wide-connected"></i>
+              </div>
+              <div>
+                <h4 class="skill-name">Spring Boot 3.x</h4>
+                <span class="skill-category-badge">Backend Framework</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-meter-wrapper">
+            <div class="skill-meter-bar">
+              <div class="skill-meter-fill" style="width: 92%;"></div>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">REST Controllers</span>
+            <span class="skill-tag">Spring Data JPA</span>
+            <span class="skill-tag">Hibernate</span>
+            <span class="skill-tag">Transactions</span>
+            <span class="skill-tag">HikariCP</span>
+          </div>
+        </div>
+
+        <!-- Spring Security & JWT -->
+        <div class="glass-card skill-card" data-category="backend">
+          <div class="skill-header">
+            <div class="skill-info">
+              <div class="skill-icon" style="color: #a855f7;">
+                <i class="bi bi-shield-lock"></i>
+              </div>
+              <div>
+                <h4 class="skill-name">Spring Security 6 & JJWT</h4>
+                <span class="skill-category-badge">Application Security</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-meter-wrapper">
+            <div class="skill-meter-bar">
+              <div class="skill-meter-fill" style="width: 90%;"></div>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Stateless JWT</span>
+            <span class="skill-tag">HMAC-SHA512</span>
+            <span class="skill-tag">BCrypt</span>
+            <span class="skill-tag">@PreAuthorize</span>
+            <span class="skill-tag">RBAC</span>
+          </div>
+        </div>
+
+        <!-- Angular 16-18 -->
+        <div class="glass-card skill-card" data-category="frontend">
+          <div class="skill-header">
+            <div class="skill-info">
+              <div class="skill-icon" style="color: #ef4444;">
+                <i class="fa-brands fa-angular"></i>
+              </div>
+              <div>
+                <h4 class="skill-name">Angular 16 – 18</h4>
+                <span class="skill-category-badge">Frontend SPA</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-meter-wrapper">
+            <div class="skill-meter-bar">
+              <div class="skill-meter-fill" style="width: 94%;"></div>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Standalone Components</span>
+            <span class="skill-tag">Angular Signals</span>
+            <span class="skill-tag">RxJS Observables</span>
+            <span class="skill-tag">Route Guards</span>
+            <span class="skill-tag">Interceptors</span>
+          </div>
+        </div>
+
+        <!-- TypeScript & JavaScript -->
+        <div class="glass-card skill-card" data-category="frontend">
+          <div class="skill-header">
+            <div class="skill-info">
+              <div class="skill-icon" style="color: #3b82f6;">
+                <i class="fa-brands fa-js"></i>
+              </div>
+              <div>
+                <h4 class="skill-name">TypeScript & JS (ES6+)</h4>
+                <span class="skill-category-badge">Languages</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-meter-wrapper">
+            <div class="skill-meter-bar">
+              <div class="skill-meter-fill" style="width: 90%;"></div>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Strong Typing</span>
+            <span class="skill-tag">Async/Await</span>
+            <span class="skill-tag">Generics</span>
+            <span class="skill-tag">Interfaces</span>
+            <span class="skill-tag">Modular Code</span>
+          </div>
+        </div>
+
+        <!-- MySQL 8/9 & SQL -->
+        <div class="glass-card skill-card" data-category="database">
+          <div class="skill-header">
+            <div class="skill-info">
+              <div class="skill-icon" style="color: #00f2fe;">
+                <i class="fa-solid fa-database"></i>
+              </div>
+              <div>
+                <h4 class="skill-name">MySQL 8 / 9 & SQL</h4>
+                <span class="skill-category-badge">Relational Persistence</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-meter-wrapper">
+            <div class="skill-meter-bar">
+              <div class="skill-meter-fill" style="width: 88%;"></div>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Relational Schemas</span>
+            <span class="skill-tag">Indexing</span>
+            <span class="skill-tag">Foreign Keys</span>
+            <span class="skill-tag">Joins & Aggregations</span>
+            <span class="skill-tag">ACID Transactions</span>
+          </div>
+        </div>
+
+        <!-- Bootstrap 5 & CSS3 -->
+        <div class="glass-card skill-card" data-category="frontend">
+          <div class="skill-header">
+            <div class="skill-info">
+              <div class="skill-icon" style="color: #8b5cf6;">
+                <i class="fa-brands fa-bootstrap"></i>
+              </div>
+              <div>
+                <h4 class="skill-name">Bootstrap 5 & UI Design</h4>
+                <span class="skill-category-badge">Responsive Design</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-meter-wrapper">
+            <div class="skill-meter-bar">
+              <div class="skill-meter-fill" style="width: 92%;"></div>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Flexbox & CSS Grid</span>
+            <span class="skill-tag">Glassmorphism</span>
+            <span class="skill-tag">Touch Ergonomics</span>
+            <span class="skill-tag">Print Stylesheets</span>
+          </div>
+        </div>
+
+        <!-- Postman & API Design -->
+        <div class="glass-card skill-card" data-category="tools">
+          <div class="skill-header">
+            <div class="skill-info">
+              <div class="skill-icon" style="color: #f97316;">
+                <i class="bi bi-send-check-fill"></i>
+              </div>
+              <div>
+                <h4 class="skill-name">Postman & REST API Design</h4>
+                <span class="skill-category-badge">API Engineering</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-meter-wrapper">
+            <div class="skill-meter-bar">
+              <div class="skill-meter-fill" style="width: 90%;"></div>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">HTTP Verbs</span>
+            <span class="skill-tag">Status Codes</span>
+            <span class="skill-tag">Automated Collections</span>
+            <span class="skill-tag">Auth Tokens</span>
+          </div>
+        </div>
+
+        <!-- Git, GitHub & Docker -->
+        <div class="glass-card skill-card" data-category="tools">
+          <div class="skill-header">
+            <div class="skill-info">
+              <div class="skill-icon" style="color: #64748b;">
+                <i class="fa-brands fa-docker"></i>
+              </div>
+              <div>
+                <h4 class="skill-name">Git, GitHub & Docker</h4>
+                <span class="skill-category-badge">DevOps & Version Control</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-meter-wrapper">
+            <div class="skill-meter-bar">
+              <div class="skill-meter-fill" style="width: 85%;"></div>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Git Branching</span>
+            <span class="skill-tag">Render Cloud</span>
+            <span class="skill-tag">Dockerfile</span>
+            <span class="skill-tag">Maven Builds</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       INTERACTIVE PROJECTS SHOWCASE (Centerpiece)
+       ======================================================================== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Featured Deployments</span>
+        <h2 class="section-title">Production <span class="gradient-text">Platforms</span></h2>
+        <p class="section-subtitle">Live, interactive enterprise applications built with modern Java & Angular architectures.</p>
+      </div>
+
+      <div class="projects-container">
+
+        <!-- Project 1: MedPulse HMS -->
+        <div class="project-card">
+          <div class="project-preview-wrapper" data-project-target="hms">
+            <img src="assets/images/medpulse-preview.jpg" alt="MedPulse Hospital Management System" class="project-preview-img">
+            <div class="preview-overlay">
+              <span class="preview-pill"><i class="bi bi-arrows-fullscreen"></i> View Deep-Dive Blueprint</span>
+            </div>
+          </div>
+
+          <div class="project-info-wrapper">
+            <div>
+              <div class="project-badge-row">
+                <span class="project-type-tag">Full-Stack Healthcare Suite</span>
+                <span class="project-live-indicator">
+                  <span class="pulse-dot-green"></span> Live on Render
+                </span>
+              </div>
+
+              <h3 class="project-title" style="margin-top: 12px;">MedPulse HMS</h3>
+              <p class="project-pitch">
+                An enterprise-grade Hospital Management System engineered for clinical resilience, multi-tenant patient privacy, and complex hospital operations with a 12-wing command hub.
+              </p>
+
+              <ul class="project-highlights-list" style="margin-top: 16px;">
+                <li><i class="bi bi-check2-circle"></i> <strong>4-Tier RBAC:</strong> Isolated Admin, Doctor, Patient, and Receptionist workflows.</li>
+                <li><i class="bi bi-check2-circle"></i> <strong>Double-Booking Prevention:</strong> Strict transactional slot validation.</li>
+                <li><i class="bi bi-check2-circle"></i> <strong>12-Wing Command Hub:</strong> Bed/Ward, Pharmacy, Lab, ER, Blood Bank, and CDSS.</li>
+                <li><i class="bi bi-check2-circle"></i> <strong>Medical Prescriptions & Billing:</strong> Multi-drug itemized print slips.</li>
+              </ul>
+            </div>
+
+            <div>
+              <div class="project-tech-pills">
+                <span class="tech-pill">Angular 18</span>
+                <span class="tech-pill">Spring Boot 3.3</span>
+                <span class="tech-pill">Java 21</span>
+                <span class="tech-pill">Spring Security 6</span>
+                <span class="tech-pill">MySQL 9</span>
+                <span class="tech-pill">JJWT</span>
+              </div>
+
+              <div class="project-actions-row">
+                <a href="https://hospital-management-system-fbmw.onrender.com/" target="_blank" class="btn btn-primary btn-sm">
+                  <i class="bi bi-box-arrow-up-right"></i> Live App
+                </a>
+                <a href="https://github.com/Lokesh3454/Hospital_Management_System" target="_blank" class="btn btn-secondary btn-sm">
+                  <i class="bi bi-github"></i> Source Code
+                </a>
+                <button class="btn btn-secondary btn-sm" data-project-target="hms">
+                  <i class="bi bi-layers-half"></i> System Deep-Dive
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: EMS Portal -->
+        <div class="project-card">
+          <div class="project-preview-wrapper" data-project-target="ems">
+            <img src="assets/images/ems-preview.jpg" alt="Enterprise Employee Management System" class="project-preview-img">
+            <div class="preview-overlay">
+              <span class="preview-pill"><i class="bi bi-arrows-fullscreen"></i> View Deep-Dive Blueprint</span>
+            </div>
+          </div>
+
+          <div class="project-info-wrapper">
+            <div>
+              <div class="project-badge-row">
+                <span class="project-type-tag">Enterprise HRMS & ATS</span>
+                <span class="project-live-indicator">
+                  <span class="pulse-dot-green"></span> Live on Render
+                </span>
+              </div>
+
+              <h3 class="project-title" style="margin-top: 12px;">EMS Portal</h3>
+              <p class="project-pitch">
+                A corporate Employee Management Platform designed to streamline HR operations, employee lifecycle tracking, multi-category leave approvals, payroll breakdown, and recruitment ATS.
+              </p>
+
+              <ul class="project-highlights-list" style="margin-top: 16px;">
+                <li><i class="bi bi-check2-circle"></i> <strong>4-Tier RBAC:</strong> Admin, HR Manager, Team Manager, and Employee portal.</li>
+                <li><i class="bi bi-check2-circle"></i> <strong>1-Click Attendance Tracker:</strong> Instant Clock-In/Clock-Out with monthly aggregates.</li>
+                <li><i class="bi bi-check2-circle"></i> <strong>Automated Payroll Engine:</strong> Basic pay, HRA, PF, and tax calculation.</li>
+                <li><i class="bi bi-check2-circle"></i> <strong>ATS & Digital Vault:</strong> Candidate pipeline + document verification stamps.</li>
+              </ul>
+            </div>
+
+            <div>
+              <div class="project-tech-pills">
+                <span class="tech-pill">Angular 16+</span>
+                <span class="tech-pill">Spring Boot 3.1.5</span>
+                <span class="tech-pill">Java 17</span>
+                <span class="tech-pill">MySQL 8</span>
+                <span class="tech-pill">Bootstrap 5.3</span>
+                <span class="tech-pill">AI HR Widget</span>
+              </div>
+
+              <div class="project-actions-row">
+                <a href="https://ems-portal-gmw6.onrender.com/" target="_blank" class="btn btn-primary btn-sm">
+                  <i class="bi bi-box-arrow-up-right"></i> Live App
+                </a>
+                <a href="https://github.com/Lokesh3454/EMS-Portal-" target="_blank" class="btn btn-secondary btn-sm">
+                  <i class="bi bi-github"></i> Source Code
+                </a>
+                <button class="btn btn-secondary btn-sm" data-project-target="ems">
+                  <i class="bi bi-layers-half"></i> System Deep-Dive
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       EXPERIENCE & EDUCATION TIMELINE
+       ======================================================================== -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="timeline-layout-grid">
+        
+        <!-- Experience Column -->
+        <div class="timeline-column">
+          <div class="timeline-col-header">
+            <i class="bi bi-briefcase-fill"></i>
+            <h3>Internship Experience</h3>
+          </div>
+
+          <div class="timeline-wrapper">
+            <div class="timeline-node">
+              <div class="timeline-dot"></div>
+              <div class="glass-card timeline-card">
+                <div class="timeline-meta-row">
+                  <span class="timeline-badge">Software Engineer Intern</span>
+                  <span class="timeline-period">Feb 2026 – May 2026</span>
+                </div>
+                <h4 class="timeline-role">HealthcareNow Pvt Ltd</h4>
+                <p class="timeline-org">Healthcare Technology Services</p>
+                <ul class="timeline-bullets">
+                  <li>Built a full-stack appointment booking platform using <strong>Spring Boot, HTML, CSS, JavaScript, and Angular</strong> for clinical scheduling and management.</li>
+                  <li>Built and integrated RESTful APIs with SQL database operations, enabling seamless data flow and efficient booking management.</li>
+                  <li>Designed responsive user interfaces and performed API testing using <strong>Postman</strong> to ensure high reliability and fault tolerance.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Education Column -->
+        <div class="timeline-column" id="education">
+          <div class="timeline-col-header">
+            <i class="bi bi-mortarboard-fill"></i>
+            <h3>Academic Background</h3>
+          </div>
+
+          <div class="timeline-wrapper">
+            <!-- Degree -->
+            <div class="timeline-node">
+              <div class="timeline-dot"></div>
+              <div class="glass-card timeline-card">
+                <div class="timeline-meta-row">
+                  <span class="timeline-badge">B.Tech — 8.5 / 10 CGPA</span>
+                  <span class="timeline-period">2022 – 2026</span>
+                </div>
+                <h4 class="timeline-role">Computer Science Engineering</h4>
+                <p class="timeline-org">Madanapalle Institute of Technology & Science (MITS)</p>
+                <p style="font-size: 0.9rem; color: var(--text-secondary);">
+                  Core Focus: Data Structures & Algorithms, Object-Oriented Programming, Database Management Systems, Computer Networks, and Software Engineering.
+                </p>
+              </div>
+            </div>
+
+            <!-- Intermediate -->
+            <div class="timeline-node">
+              <div class="timeline-dot"></div>
+              <div class="glass-card timeline-card">
+                <div class="timeline-meta-row">
+                  <span class="timeline-badge">Intermediate — 89%</span>
+                  <span class="timeline-period">2020 – 2022</span>
+                </div>
+                <h4 class="timeline-role">MPC Stream (Maths, Physics, Chem)</h4>
+                <p class="timeline-org">Sri Chaithanya Junior College, Tirupathi</p>
+              </div>
+            </div>
+
+            <!-- 10th ICSE -->
+            <div class="timeline-node">
+              <div class="timeline-dot"></div>
+              <div class="glass-card timeline-card">
+                <div class="timeline-meta-row">
+                  <span class="timeline-badge">10th Class ICSE — 550 / 600</span>
+                  <span class="timeline-period">2019 – 2020</span>
+                </div>
+                <h4 class="timeline-role">Secondary School Certificate</h4>
+                <p class="timeline-org">Keshava Reddy Concept School (ICSE), Mamandur</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       INTERACTIVE CONTACT & CONNECT SECTION
+       ======================================================================== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Let's Build Together</span>
+        <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+        <p class="section-subtitle">Interested in hiring me for a full-stack role, collaborating, or exploring my architectures? Reach out directly!</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Direct Contact Cards with Copy Buttons -->
+        <div class="contact-cards-stack">
+          <!-- Email Card -->
+          <div class="contact-item-card">
+            <div class="contact-item-left">
+              <div class="contact-item-icon">
+                <i class="bi bi-envelope-at-fill"></i>
+              </div>
+              <div>
+                <span class="contact-item-label">Direct Email</span>
+                <div class="contact-item-value">lokeswarreddy3454@gmail.com</div>
+              </div>
+            </div>
+            <button class="copy-btn" data-copy="lokeswarreddy3454@gmail.com" data-label="Email">
+              <i class="bi bi-clipboard"></i> Copy
+            </button>
+          </div>
+
+          <!-- Phone Card -->
+          <div class="contact-item-card">
+            <div class="contact-item-left">
+              <div class="contact-item-icon">
+                <i class="bi bi-telephone-fill"></i>
+              </div>
+              <div>
+                <span class="contact-item-label">Phone / WhatsApp</span>
+                <div class="contact-item-value">+91-8919878779</div>
+              </div>
+            </div>
+            <button class="copy-btn" data-copy="+918919878779" data-label="Phone Number">
+              <i class="bi bi-clipboard"></i> Copy
+            </button>
+          </div>
+
+          <!-- LinkedIn Card -->
+          <div class="contact-item-card">
+            <div class="contact-item-left">
+              <div class="contact-item-icon" style="color: #0a66c2;">
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+              <div>
+                <span class="contact-item-label">LinkedIn</span>
+                <div class="contact-item-value">lokeswar-reddy-123581252</div>
+              </div>
+            </div>
+            <a href="https://linkedin.com/in/lokeswar-reddy-123581252" target="_blank" class="copy-btn">
+              <i class="bi bi-arrow-up-right"></i> Visit
+            </a>
+          </div>
+
+          <!-- GitHub Card -->
+          <div class="contact-item-card">
+            <div class="contact-item-left">
+              <div class="contact-item-icon" style="color: #f8fafc;">
+                <i class="fa-brands fa-github"></i>
+              </div>
+              <div>
+                <span class="contact-item-label">GitHub</span>
+                <div class="contact-item-value">github.com/Lokesh3454</div>
+              </div>
+            </div>
+            <a href="https://github.com/Lokesh3454" target="_blank" class="copy-btn">
+              <i class="bi bi-arrow-up-right"></i> Visit
+            </a>
+          </div>
+        </div>
+
+        <!-- Interactive Direct Message Form -->
+        <div class="glass-card">
+          <h3 style="font-size: 1.4rem; margin-bottom: 20px;">Send a Direct Message</h3>
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <label class="form-label" for="sender-name">Your Full Name</label>
+              <input type="text" id="sender-name" class="form-control" placeholder="e.g. John Doe" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="sender-email">Your Email Address</label>
+              <input type="email" id="sender-email" class="form-control" placeholder="e.g. john@company.com" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="sender-subject">Subject / Position</label>
+              <input type="text" id="sender-subject" class="form-control" placeholder="e.g. Full-Stack Developer Role Inquiry" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="sender-message">Message</label>
+              <textarea id="sender-message" class="form-control" placeholder="Hi Lokeswar, we reviewed your MedPulse and EMS projects and would love to chat..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 8px;">
+              <i class="bi bi-send-fill"></i> Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       FOOTER
+       ======================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top-row">
+        <a href="#hero" class="brand-logo">
+          <div class="logo-badge">VL</div>
+          <span>Valluru Lokeswar Reddy</span>
+        </a>
+
+        <ul class="footer-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom-row">
+        <div>
+          &copy; 2026 Valluru Lokeswar Reddy. Built with precision and passion.
+        </div>
+        <button class="back-to-top" onclick="window.scrollTo({top:0, behavior:'smooth'})" aria-label="Back to Top">
+          <i class="bi bi-arrow-up"></i>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       INTERACTIVE SYSTEM DEEP-DIVE MODAL DIALOG
+       ======================================================================== -->
+  <div class="modal-backdrop" id="project-modal" role="dialog" aria-modal="true">
+    <div class="modal-window">
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <div>
+          <span class="project-type-tag" id="modal-project-badge">Architecture Blueprint</span>
+          <h3 style="font-size: 1.5rem; margin-top: 8px;" id="modal-project-title">System Name</h3>
+          <p style="font-size: 0.9rem; color: var(--text-secondary);" id="modal-project-tagline">Tagline</p>
+        </div>
+        <button class="modal-close-btn" id="modal-close-btn" aria-label="Close dialog">
+          <i class="bi bi-x-lg"></i>
+        </button>
+      </div>
+
+      <!-- Navigation Tabs -->
+      <div class="modal-tabs">
+        <button class="modal-tab-btn active" data-tab="overview">Overview & RBAC</button>
+        <button class="modal-tab-btn" data-tab="architecture">System Architecture</button>
+        <button class="modal-tab-btn" data-tab="modules">Core Modules</button>
+        <button class="modal-tab-btn" data-tab="credentials">Live Demo & Source</button>
+      </div>
+
+      <!-- Tab Content Area -->
+      <div class="modal-body">
+        <div class="tab-content active" id="tab-overview"></div>
+        <div class="tab-content" id="tab-architecture"></div>
+        <div class="tab-content" id="tab-modules"></div>
+        <div class="tab-content" id="tab-credentials"></div>
+
+        <div style="display: flex; gap: 16px; margin-top: 32px; padding-top: 24px; border-top: 1px solid var(--border-glass);">
+          <a href="#" target="_blank" class="btn btn-primary btn-sm" id="modal-live-btn">
+            <i class="bi bi-box-arrow-up-right"></i> Open Live App
+          </a>
+          <a href="#" target="_blank" class="btn btn-secondary btn-sm" id="modal-github-btn">
+            <i class="bi bi-github"></i> View GitHub Repo
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container for Copied Text -->
+  <div class="toast-container"></div>
+
+  <!-- Interactive JavaScript Controller -->
+  <script src="js/app.js"></script>
+</body>
+</html>

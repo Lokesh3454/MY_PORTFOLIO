@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Valluru Lokeswar Reddy - Resume</title>
+  <style>
+    @page {
+      size: letter;
+      margin: 0.42in 0.5in 0.42in 0.5in;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Times New Roman', Times, 'Nimbus Roman No9 L', serif;
+      font-size: 10.5pt;
+      line-height: 1.28;
+      color: #111;
+      background: #fff;
+    }
+
+    /* Header Section */
+    .header {
+      margin-bottom: 10px;
+    }
+
+    .name {
+      font-size: 21pt;
+      font-weight: bold;
+      color: #000;
+      margin-bottom: 4px;
+      letter-spacing: -0.2px;
+    }
+
+    .contact-grid {
+      display: flex;
+      justify-content: space-between;
+      font-size: 10pt;
+      color: #222;
+    }
+
+    .contact-col {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5px;
+    }
+
+    .contact-col-right {
+      text-align: right;
+    }
+
+    a {
+      color: #111;
+      text-decoration: none;
+    }
+
+    /* Section Headings */
+    .section-title {
+      font-size: 10.5pt;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-top: 10px;
+      margin-bottom: 3px;
+      border-bottom: 1px solid #111;
+      padding-bottom: 1px;
+    }
+
+    /* Content Elements */
+    .summary-text {
+      font-size: 10pt;
+      line-height: 1.32;
+      text-align: justify;
+      margin-top: 3px;
+      margin-bottom: 4px;
+    }
+
+    .competency-list {
+      list-style: none;
+      margin-top: 3px;
+      margin-bottom: 4px;
+    }
+
+    .competency-list li {
+      position: relative;
+      padding-left: 14px;
+      margin-bottom: 2px;
+      font-size: 10pt;
+    }
+
+    .competency-list li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      font-size: 10pt;
+    }
+
+    .bold-label {
+      font-weight: bold;
+    }
+
+    /* Experience / Projects / Education Items */
+    .entry {
+      margin-top: 5px;
+      margin-bottom: 4px;
+    }
+
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-size: 10.5pt;
+      position: relative;
+      padding-left: 14px;
+    }
+
+    .entry-header::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      font-size: 10.5pt;
+    }
+
+    .entry-title {
+      font-weight: bold;
+    }
+
+    .entry-company {
+      font-style: italic;
+    }
+
+    .entry-date {
+      font-style: italic;
+      font-size: 9.8pt;
+      white-space: nowrap;
+    }
+
+    .entry-bullets {
+      list-style: none;
+      margin-top: 2px;
+      margin-left: 18px;
+    }
+
+    .entry-bullets li {
+      position: relative;
+      padding-left: 14px;
+      margin-bottom: 2.5px;
+      font-size: 9.8pt;
+      line-height: 1.26;
+      text-align: justify;
+    }
+
+    .entry-bullets li::before {
+      content: "–";
+      position: absolute;
+      left: 0;
+    }
+
+    /* Education Entry */
+    .edu-entry {
+      margin-top: 4px;
+      margin-bottom: 4px;
+    }
+
+    .edu-row-1 {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-size: 10pt;
+      position: relative;
+      padding-left: 14px;
+    }
+
+    .edu-row-1::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+    }
+
+    .edu-institution {
+      font-weight: bold;
+    }
+
+    .edu-location {
+      font-size: 9.8pt;
+    }
+
+    .edu-row-2 {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-size: 9.8pt;
+      padding-left: 14px;
+      margin-top: 1px;
+    }
+
+    .edu-degree {
+      font-style: italic;
+    }
+
+    .edu-years {
+      font-size: 9.8pt;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <div class="name">Valluru Lokeswar Reddy</div>
+    <div class="contact-grid">
+      <div class="contact-col">
+        <div><span class="bold-label">LinkedIn:</span> linkedin.com/in/lokeswar-reddy-123581252</div>
+        <div><span class="bold-label">GitHub:</span> github.com/Lokesh3454</div>
+      </div>
+      <div class="contact-col contact-col-right">
+        <div><span class="bold-label">Email:</span> lokeswarreddy3454@gmail.com</div>
+        <div><span class="bold-label">Mobile:</span> +91-8919878779</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Professional Summary -->
+  <div class="section-title">Professional Summary</div>
+  <div class="summary-text" style="position: relative; padding-left: 14px;">
+    <span style="position: absolute; left: 0;">•</span>Computer Science graduate with practical experience in full-stack development using Angular, Spring Boot, and SQL. Passionate about building efficient web applications and seeking an opportunity to contribute to software development and enhance technical expertise.
+  </div>
+
+  <!-- Technical Competencies -->
+  <div class="section-title">Technical Competencies</div>
+  <ul class="competency-list">
+    <li><span class="bold-label">Languages:</span> Java (17/21), TypeScript, JavaScript (ES6+), SQL, HTML5, CSS3</li>
+    <li><span class="bold-label">Frontend:</span> Angular (16&ndash;18), Standalone Components, Angular Signals, RxJS, Reactive Forms, Bootstrap 5</li>
+    <li><span class="bold-label">Backend &amp; Security:</span> Spring Boot 3.x, Spring Security 6, JJWT (RBAC, Stateless Auth), Spring Data JPA, Hibernate, REST APIs</li>
+    <li><span class="bold-label">Databases &amp; Tools:</span> MySQL (8/9), HikariCP, Git, GitHub, Docker, Postman, Maven, Render Cloud Deployment</li>
+  </ul>
+
+  <!-- Internship Experience -->
+  <div class="section-title">Internship Experience</div>
+  <div class="entry">
+    <div class="entry-header">
+      <div>
+        <span class="entry-title">Software Engineer Intern</span> &mdash;
+        <span class="entry-company">HealthcareNow Pvt Ltd</span>
+      </div>
+      <div class="entry-date">Feb 2026 &ndash; May 2026</div>
+    </div>
+    <ul class="entry-bullets">
+      <li>Built a full-stack appointment booking platform using Spring Boot, HTML, CSS, JavaScript, and Angular for appointment scheduling and management.</li>
+      <li>Built and integrated RESTful APIs with SQL database operations, enabling seamless data flow and efficient booking management.</li>
+      <li>Designed responsive user interfaces and performed API testing using Postman to ensure application reliability and performance.</li>
+    </ul>
+  </div>
+
+  <!-- Projects (Updated with MedPulse HMS and EMS Portal) -->
+  <div class="section-title">Projects</div>
+
+  <!-- Project 1: MedPulse HMS -->
+  <div class="entry">
+    <div class="entry-header">
+      <div>
+        <span class="entry-title">MedPulse &mdash; Hospital Management System</span>
+      </div>
+      <div style="font-size: 9.5pt; font-style: normal; white-space: nowrap;">
+        <a href="https://hospital-management-system-fbmw.onrender.com/" target="_blank" style="color: #0b57d0; text-decoration: underline;">[Live Demo]</a> |
+        <a href="https://github.com/Lokesh3454/Hospital_Management_System" target="_blank" style="color: #0b57d0; text-decoration: underline;">[GitHub]</a>
+      </div>
+    </div>
+    <ul class="entry-bullets">
+      <li>Built an enterprise full-stack hospital management system using Angular, Spring Boot, Java, and MySQL.</li>
+      <li>Implemented 4-tier role-based access control (RBAC) with stateless JWT authentication and dynamic doctor appointment booking with strict double-booking conflict prevention.</li>
+      <li>Engineered clinical operation modules including bed/ward tracking, electronic prescription generation, and automated itemized billing settlement.</li>
+    </ul>
+  </div>
+
+  <!-- Project 2: EMS Portal -->
+  <div class="entry">
+    <div class="entry-header">
+      <div>
+        <span class="entry-title">EMS Portal &mdash; Enterprise Employee Management System</span>
+      </div>
+      <div style="font-size: 9.5pt; font-style: normal; white-space: nowrap;">
+        <a href="https://ems-portal-gmw6.onrender.com/" target="_blank" style="color: #0b57d0; text-decoration: underline;">[Live Demo]</a> |
+        <a href="https://github.com/Lokesh3454/EMS-Portal-" target="_blank" style="color: #0b57d0; text-decoration: underline;">[GitHub]</a>
+      </div>
+    </div>
+    <ul class="entry-bullets">
+      <li>Developed a full-stack employee management application using Angular, Spring Boot, and MySQL.</li>
+      <li>Implemented CRUD operations, search/filter functionalities, 1-click attendance tracking, and REST APIs.</li>
+      <li>Implemented JWT-based authentication and role-based access control for secure access across admin, HR, manager, and employee workflows.</li>
+      <li>Designed, tested, and validated backend APIs using Postman for request handling, authentication flows, and error responses.</li>
+    </ul>
+  </div>
+
+  <!-- Education -->
+  <div class="section-title">Education</div>
+
+  <div class="edu-entry">
+    <div class="edu-row-1">
+      <span class="edu-institution">Madanapalle Institute of Technology & Science</span>
+      <span class="edu-location">Kadiri Road, Andhra Pradesh</span>
+    </div>
+    <div class="edu-row-2">
+      <span class="edu-degree">B.Tech in Computer Science Engineering &ndash; 8.5/10</span>
+      <span class="edu-years">2022 &ndash; 2026</span>
+    </div>
+  </div>
+
+  <div class="edu-entry">
+    <div class="edu-row-1">
+      <span class="edu-institution">Sri Chaithanya Junior College</span>
+      <span class="edu-location">Tirupathi, Andhra Pradesh</span>
+    </div>
+    <div class="edu-row-2">
+      <span class="edu-degree">Intermediate &ndash; 89%</span>
+      <span class="edu-years">2020 &ndash; 2022</span>
+    </div>
+  </div>
+
+  <div class="edu-entry">
+    <div class="edu-row-1">
+      <span class="edu-institution">Keshava Reddy Concept School (ICSE)</span>
+      <span class="edu-location">Mamandur, Andhra Pradesh</span>
+    </div>
+    <div class="edu-row-2">
+      <span class="edu-degree">10th Class &ndash; 550/600</span>
+      <span class="edu-years">2019 &ndash; 2020</span>
+    </div>
+  </div>
+
+</body>
+</html>

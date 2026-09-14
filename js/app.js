@@ -412,7 +412,7 @@ const projectData = {
   },
 
   examSeating: {
-    title: 'Smart Exam Seating Arrangement System',
+    title: 'Exam Seating Arrangement System',
     tagline: 'Automated Seating Allocation, Invigilation Roster & Real-Time Hall Attendance',
     liveUrl: 'https://student-exam-seating-arrangement.onrender.com/',
     githubUrl: 'https://github.com/Lokesh3454/Student_Exam_Seating_Arrangement',

@@ -409,6 +409,119 @@ const projectData = {
         </div>
       </div>
     `
+  },
+
+  examSeating: {
+    title: 'Smart Exam Seating Arrangement System',
+    tagline: 'Automated Seating Allocation, Invigilation Roster & Real-Time Hall Attendance',
+    liveUrl: 'https://student-exam-seating-arrangement.onrender.com/',
+    githubUrl: 'https://github.com/Lokesh3454/Student_Exam_Seating_Arrangement',
+    badge: 'Angular 17+ • Spring Boot 3.x • Java 17+ • JWT RBAC',
+    overview: `
+      <p>An enterprise-grade examination operations platform designed for universities and engineering colleges to automate student desk allocation, enforce strict anti-cheating constraints, assign faculty invigilators, and track real-time exam attendance.</p>
+      
+      <div class="deepdive-grid">
+        <div class="deepdive-card">
+          <h4><i class="bi bi-cpu-fill"></i> Anti-Neighbor Constraint Engine</h4>
+          <p>Constraint-satisfaction seating allocation preventing academic dishonesty:</p>
+          <ul>
+            <li><strong>Branch Isolation:</strong> Ensures adjacent desks (left, right, front, back) do not seat students from the same department, branch, or semester.</li>
+            <li><strong>Dynamic Hall Grids:</strong> Supports customizable rows, columns, and bench configurations.</li>
+            <li><strong>Visual Seating Matrix:</strong> Interactive color-coded seat map displaying student registration and exam metadata.</li>
+          </ul>
+        </div>
+        <div class="deepdive-card">
+          <h4><i class="bi bi-person-badge-fill"></i> 3-Tier Role Security (RBAC)</h4>
+          <p>Stateless JWT authentication securing 3 discrete operational roles:</p>
+          <ul>
+            <li><strong>ADMIN:</strong> Hall setup, exam scheduling, bulk CSV ingestion, algorithm execution.</li>
+            <li><strong>FACULTY:</strong> Personalized invigilation roster, desk-by-desk live hall attendance.</li>
+            <li><strong>STUDENT:</strong> Searchable candidate timetable, assigned hall, and seat number.</li>
+          </ul>
+        </div>
+      </div>
+    `,
+    architecture: `
+      <h4><i class="bi bi-diagram-3-fill"></i> System Architecture & Algorithm Flow</h4>
+      <div class="architecture-code-block">
+[Angular 17 Standalone Single Page App]
+       │
+       ▼ (Bearer JWT HTTP Requests via Angular HttpClient)
+[Spring Security Filter Chain (@PreAuthorize RBAC)]
+       │
+       ├─► [Seating Algorithm Engine (Constraint Satisfaction Solver)]
+       ├─► [Exam, Hall, Faculty Assignment Controllers]
+       ├─► [Live Attendance Register & Malpractice Loggers]
+       │
+       ▼ (Spring Data JPA / Hibernate ORM)
+[Relational Database: Desks, Enrollments, Schedules & Audit Logs]
+      </div>
+      <div class="deepdive-grid">
+        <div class="deepdive-card">
+          <h4>Frontend Engineering</h4>
+          <ul>
+            <li><strong>Angular 17+:</strong> Standalone components, reactive TypeScript architecture.</li>
+            <li><strong>Seating Matrix Grid:</strong> High-density visual layout of examination halls.</li>
+            <li><strong>Print-Ready Records:</strong> Formatted print stylesheets for physical hall registers.</li>
+          </ul>
+        </div>
+        <div class="deepdive-card">
+          <h4>Backend Engineering</h4>
+          <ul>
+            <li><strong>Spring Boot 3.x & Java 17+:</strong> Microservice REST endpoints.</li>
+            <li><strong>Constraint Solver:</strong> Heuristic backtracking algorithm preventing neighbor clashes.</li>
+            <li><strong>Bulk CSV Ingestion:</strong> Transactional processing of candidate records with rollback.</li>
+          </ul>
+        </div>
+      </div>
+    `,
+    modules: `
+      <h4><i class="bi bi-grid-3x3-gap-fill"></i> Comprehensive Examination Modules</h4>
+      <div class="deepdive-grid">
+        <div class="deepdive-card">
+          <h4>Allocation & Operations</h4>
+          <ul>
+            <li>🧠 <strong>Constraint Seating Engine:</strong> Automated hall distribution with anti-cheating separation.</li>
+            <li>🏢 <strong>Dynamic Hall Architect:</strong> Configurable rows, columns, and bench capacities per hall.</li>
+            <li>👨‍🏫 <strong>Invigilation Roster:</strong> Faculty allocation with automated double-booking prevention.</li>
+            <li>📥 <strong>Bulk Data Ingestion:</strong> One-click CSV import for students, exams, and room schedules.</li>
+          </ul>
+        </div>
+        <div class="deepdive-card">
+          <h4>Live Supervision & Analytics</h4>
+          <ul>
+            <li>📋 <strong>Live Hall Register:</strong> Real-time desk-by-desk Present/Absent toggles.</li>
+            <li>⚠️ <strong>Malpractice Incident Logging:</strong> Incident audit trail with proof records and status workflow.</li>
+            <li>📊 <strong>4-in-1 Reports:</strong> Exam utilization, hall occupancy, branch stats, candidate timetables.</li>
+            <li>🖨️ <strong>Printable Sheets:</strong> Official printable seating charts and signature registers.</li>
+          </ul>
+        </div>
+      </div>
+    `,
+    credentials: `
+      <h4><i class="bi bi-box-arrow-up-right"></i> Live Deployment & Source</h4>
+      <p>Explore the live examination platform deployed on Render or inspect the complete GitHub repository code.</p>
+      
+      <div class="deepdive-grid">
+        <div class="deepdive-card">
+          <h4>Platform Capabilities</h4>
+          <ul>
+            <li>Interactive hall grid with real-time seat inspection.</li>
+            <li>Instant seating allocation generation for multi-branch exams.</li>
+            <li>Live attendance tracking and incident reporting.</li>
+            <li>Searchable student hall & desk lookup.</li>
+          </ul>
+        </div>
+        <div class="deepdive-card">
+          <h4>Access & Links</h4>
+          <ul>
+            <li><strong>Live Deployment:</strong> <a href="https://student-exam-seating-arrangement.onrender.com/" target="_blank" style="color:var(--cyan);text-decoration:underline;">student-exam-seating-arrangement.onrender.com</a></li>
+            <li><strong>GitHub Repository:</strong> <a href="https://github.com/Lokesh3454/Student_Exam_Seating_Arrangement" target="_blank" style="color:var(--cyan);text-decoration:underline;">github.com/Lokesh3454/Student_Exam_Seating_Arrangement</a></li>
+            <li><strong>License:</strong> MIT Open-Source License.</li>
+          </ul>
+        </div>
+      </div>
+    `
   }
 };
 

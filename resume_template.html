@@ -6,7 +6,7 @@
   <style>
     @page {
       size: letter;
-      margin: 0.42in 0.5in 0.42in 0.5in;
+      margin: 0.35in 0.45in 0.35in 0.45in;
     }
 
     * {
@@ -256,7 +256,7 @@
     </ul>
   </div>
 
-  <!-- Projects (Updated with MedPulse HMS and EMS Portal) -->
+  <!-- Projects (Updated with MedPulse HMS, EMS Portal, and Smart Exam Seating) -->
   <div class="section-title">Projects</div>
 
   <!-- Project 1: MedPulse HMS -->
@@ -265,15 +265,14 @@
       <div>
         <span class="entry-title">MedPulse &mdash; Hospital Management System</span>
       </div>
-      <div style="font-size: 9.5pt; font-style: normal; white-space: nowrap;">
+      <div style="font-size: 9.2pt; font-style: normal; white-space: nowrap;">
         <a href="https://hospital-management-system-fbmw.onrender.com/" target="_blank" style="color: #0b57d0; text-decoration: underline;">[Live Demo]</a> |
         <a href="https://github.com/Lokesh3454/Hospital_Management_System" target="_blank" style="color: #0b57d0; text-decoration: underline;">[GitHub]</a>
       </div>
     </div>
     <ul class="entry-bullets">
-      <li>Built an enterprise full-stack hospital management system using Angular, Spring Boot, Java, and MySQL.</li>
-      <li>Implemented 4-tier role-based access control (RBAC) with stateless JWT authentication and dynamic doctor appointment booking with strict double-booking conflict prevention.</li>
-      <li>Engineered clinical operation modules including bed/ward tracking, electronic prescription generation, and automated itemized billing settlement.</li>
+      <li>Built an enterprise clinical platform using Angular, Spring Boot, Java, and MySQL with 4-tier RBAC and stateless JWT auth.</li>
+      <li>Implemented dynamic 30-min doctor slot booking with transactional double-booking prevention, 12-wing command hub (bed/ward, lab, CDSS), and automated billing settlement with prescription slips.</li>
     </ul>
   </div>
 
@@ -283,16 +282,31 @@
       <div>
         <span class="entry-title">EMS Portal &mdash; Enterprise Employee Management System</span>
       </div>
-      <div style="font-size: 9.5pt; font-style: normal; white-space: nowrap;">
+      <div style="font-size: 9.2pt; font-style: normal; white-space: nowrap;">
         <a href="https://ems-portal-gmw6.onrender.com/" target="_blank" style="color: #0b57d0; text-decoration: underline;">[Live Demo]</a> |
         <a href="https://github.com/Lokesh3454/EMS-Portal-" target="_blank" style="color: #0b57d0; text-decoration: underline;">[GitHub]</a>
       </div>
     </div>
     <ul class="entry-bullets">
-      <li>Developed a full-stack employee management application using Angular, Spring Boot, and MySQL.</li>
-      <li>Implemented CRUD operations, search/filter functionalities, 1-click attendance tracking, and REST APIs.</li>
-      <li>Implemented JWT-based authentication and role-based access control for secure access across admin, HR, manager, and employee workflows.</li>
-      <li>Designed, tested, and validated backend APIs using Postman for request handling, authentication flows, and error responses.</li>
+      <li>Developed an enterprise HR management application using Angular, Spring Boot, Java, and MySQL with multi-tier RBAC.</li>
+      <li>Implemented 1-click attendance tracking, multi-category leave workflows, automated payroll calculation engine (Basic, HRA, PF, tax deductions), recruitment ATS pipeline, and document vault.</li>
+    </ul>
+  </div>
+
+  <!-- Project 3: Smart Exam Seating Arrangement System -->
+  <div class="entry">
+    <div class="entry-header">
+      <div>
+        <span class="entry-title">Smart Exam Seating Arrangement System</span>
+      </div>
+      <div style="font-size: 9.2pt; font-style: normal; white-space: nowrap;">
+        <a href="https://student-exam-seating-arrangement.onrender.com/" target="_blank" style="color: #0b57d0; text-decoration: underline;">[Live Demo]</a> |
+        <a href="https://github.com/Lokesh3454/Student_Exam_Seating_Arrangement" target="_blank" style="color: #0b57d0; text-decoration: underline;">[GitHub]</a>
+      </div>
+    </div>
+    <ul class="entry-bullets">
+      <li>Built an automated university examination platform using Angular, Spring Boot, Java, and MySQL with 3-tier RBAC.</li>
+      <li>Engineered a constraint-satisfaction seating algorithm with anti-neighbor branch separation to prevent cheating, faculty invigilation rosters with conflict guards, and live desk attendance register.</li>
     </ul>
   </div>
 

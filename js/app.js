@@ -187,7 +187,7 @@ function initSkillsFilter() {
    -------------------------------------------------------------------------- */
 const projectData = {
   hms: {
-    title: 'MedPulse — Hospital Management System (HMS)',
+    title: 'Hospital Management System',
     tagline: 'Enterprise-Grade Clinical Operations & Electronic Health Records Platform',
     liveUrl: 'https://hospital-management-system-fbmw.onrender.com/',
     githubUrl: 'https://github.com/Lokesh3454/Hospital_Management_System',
@@ -303,7 +303,7 @@ const projectData = {
   },
 
   ems: {
-    title: 'EMS Portal — Enterprise Employee Management System',
+    title: 'Employee Management System',
     tagline: 'Modern Corporate HRMS, Attendance Tracking, Payroll & ATS Pipeline',
     liveUrl: 'https://ems-portal-gmw6.onrender.com/',
     githubUrl: 'https://github.com/Lokesh3454/EMS-Portal-',

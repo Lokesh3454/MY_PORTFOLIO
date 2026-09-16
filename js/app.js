@@ -188,12 +188,12 @@ function initSkillsFilter() {
 const projectData = {
   hms: {
     title: 'Hospital Management System',
-    tagline: 'Enterprise-Grade Clinical Operations & Electronic Health Records Platform',
+    tagline: 'Healthcare Management Web Application with Role-Based Access',
     liveUrl: 'https://hospital-management-system-fbmw.onrender.com/',
     githubUrl: 'https://github.com/Lokesh3454/Hospital_Management_System',
-    badge: 'Angular 18 • Spring Boot 3.3 • Java 21 • MySQL 9',
+    badge: 'Angular • Spring Boot • Java • MySQL • Cloud Deployed',
     overview: `
-      <p>MedPulse is an enterprise-level clinical healthcare suite engineered to deliver high clinical resilience, multi-tenant patient medical confidentiality, and seamless hospital operational throughput across <strong>Desktop, Tablet, and Mobile devices</strong>.</p>
+      <p>A full-stack healthcare web application developed using <strong>Spring Boot, Angular, and MySQL</strong>, leveraging modern AI developer tools (Gemini, Antigravity) for rapid prototyping, clean architecture, and deployment on Render.</p>
       
       <div class="deepdive-grid">
         <div class="deepdive-card">
@@ -304,12 +304,12 @@ const projectData = {
 
   ems: {
     title: 'Employee Management System',
-    tagline: 'Modern Corporate HRMS, Attendance Tracking, Payroll & ATS Pipeline',
+    tagline: 'Employee Portal for Attendance, Leave Management & Salary Records',
     liveUrl: 'https://ems-portal-gmw6.onrender.com/',
     githubUrl: 'https://github.com/Lokesh3454/EMS-Portal-',
-    badge: 'Angular 16+ • Spring Boot 3.1 • Java 17 • MySQL 8+',
+    badge: 'Angular • Spring Boot • Java • MySQL • Cloud Deployed',
     overview: `
-      <p>EMS Portal is an end-to-end Enterprise HR Management solution engineered to eliminate HR bottlenecks, streamline multi-tiered leave approvals, automate complex payroll calculations, and track candidates from application to hiring.</p>
+      <p>A full-stack workplace portal developed with <strong>Angular and Spring Boot</strong> to streamline employee profile directories, daily attendance tracking, multi-category leave requests, and salary slip access.</p>
       
       <div class="deepdive-grid">
         <div class="deepdive-card">
@@ -413,12 +413,12 @@ const projectData = {
 
   examSeating: {
     title: 'Exam Seating Arrangement System',
-    tagline: 'Automated Seating Allocation, Invigilation Roster & Real-Time Hall Attendance',
+    tagline: 'Automated Desk Allocation, Hall Search & Invigilation Management',
     liveUrl: 'https://student-exam-seating-arrangement.onrender.com/',
     githubUrl: 'https://github.com/Lokesh3454/Student_Exam_Seating_Arrangement',
-    badge: 'Angular 17+ • Spring Boot 3.x • Java 17+ • JWT RBAC',
+    badge: 'Angular • Spring Boot • Java • MySQL',
     overview: `
-      <p>An enterprise-grade examination operations platform designed for universities and engineering colleges to automate student desk allocation, enforce strict anti-cheating constraints, assign faculty invigilators, and track real-time exam attendance.</p>
+      <p>A web-based academic examination portal designed for colleges to automate student desk allocations for semester exams, enforce branch separation logic to prevent cheating, and manage faculty invigilation duties.</p>
       
       <div class="deepdive-grid">
         <div class="deepdive-card">
